@@ -1,0 +1,23 @@
+{
+  "name": "aws_daily",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "pub_date": {
+      "type": "date"
+    },
+    "pub_desc": {
+      "type": "string"
+    },
+    "pub_url": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
